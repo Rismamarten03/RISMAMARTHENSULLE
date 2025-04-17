@@ -1,0 +1,80 @@
+/* 🔹 GLOBAL */
+body {
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffe4ec; /* pink lembut */
+        background-image: none;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+
+/* 🔹 HERO SECTION */
+.hero-section {
+    padding: 3rem 1rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .hero-section {
+        text-align: left;
+    }
+}
+
+/* 🔹 BUTTON */
+.button {
+    background-color: #ffffff;
+    color: #FF007D;
+    padding: 0.75rem 1.75rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(255, 0, 125, 0.1);
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #FF007D;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.button-outline {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 0.75rem 1.75rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.button-outline:hover {
+    background-color: #FF007D;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* 🔹 PROFILE PICTURE */
+.profile-pic {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+    transform: scale(1.07);
+}
